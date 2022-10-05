@@ -3,6 +3,8 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-10">
+
+            
             <form action="{{ route('products.create.step.one.post') }}" method="POST">
                 @csrf
   
